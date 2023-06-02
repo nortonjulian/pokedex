@@ -9,7 +9,7 @@ function Pokecard(props) {
     return (
         <div className="Pokecard">
            <div className="Pokecard-title">{ props.name }</div>
-           <img className="Pokecard-image">src={imgSrc }</img>
+           <img className="Pokecard-image"src={imgSrc } alt="" />
            <div className="Pokecard-data">{ props.type }</div>
            <div className="Pokecard-data">{ props.exp}</div>
         </div>
